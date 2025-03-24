@@ -7,7 +7,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-console.log("Hello from Whdinasor's Custom Engine!");
+const { debug } = require("console");
+
+debug.log("Hello from Whdinasor's Custom Engine!");
 
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
