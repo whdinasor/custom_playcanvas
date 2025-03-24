@@ -1,6 +1,6 @@
 /**
  * @license
- * PlayCanvas Engine v2.4.0-dev revision unknown (RELEASE)
+ * PlayCanvas Engine v2.4.0-dev revision fccfc3a (RELEASE)
  * Copyright 2011-2025 PlayCanvas Ltd. All rights reserved.
  *
  * This source code is licensed under the MIT license found in the
@@ -252,7 +252,7 @@
 	var TRACEID_GPU_TIMINGS = 'GpuTimings';
 
 	var version = '2.4.0-dev';
-	var revision = 'unknown';
+	var revision = 'fccfc3a';
 	function extend(target, ex) {
 		for (var prop in ex) {
 			var copy = ex[prop];
@@ -40507,7 +40507,6 @@
 			_this.gamepads = null;
 			_this.elementInput = null;
 			_this.xr = null;
-			console.log("Welcome to Whdinasor's PlayCanvas!");
 			AppBase._applications[canvas.id] = _this;
 			setApplication(_this);
 			exports.app = _this;
