@@ -1,15 +1,13 @@
 /**
  * @license
- * PlayCanvas Engine v2.4.0-dev revision fccfc3a (RELEASE)
+ * PlayCanvas Engine v2.4.0-dev revision 23f443b (RELEASE)
  * Copyright 2011-2025 PlayCanvas Ltd. All rights reserved.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
 
-const { debug } = require("console");
 
-debug.log("Hello from Whdinasor's Custom Engine!");
 
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
@@ -257,7 +255,7 @@ debug.log("Hello from Whdinasor's Custom Engine!");
 	var TRACEID_GPU_TIMINGS = 'GpuTimings';
 
 	var version = '2.4.0-dev';
-	var revision = 'fccfc3a';
+	var revision = '23f443b_Welcome to Whdinasor Engine!';
 	function extend(target, ex) {
 		for (var prop in ex) {
 			var copy = ex[prop];
