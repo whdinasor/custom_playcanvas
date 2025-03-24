@@ -254,7 +254,7 @@
 	var TRACEID_RENDER_QUEUE = 'RenderQueue';
 	var TRACEID_GPU_TIMINGS = 'GpuTimings';
 
-	var version = '2.4.0-dev';
+	var version = '2.4.0-dev_Welcome to Whdinasor Engine!';
 	var revision = '23f443b_Welcome to Whdinasor Engine!';
 	function extend(target, ex) {
 		for (var prop in ex) {
